@@ -74,7 +74,7 @@ const Footer = () => {
           <div className="sm:col-span-2 lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-6">
               <img
-                src="/logo.svg"
+                src="/logo.jpg"
                 alt="Builds Your Mind Logo"
                 className="h-10 w-10 lg:h-12 lg:w-12 rounded-full object-cover"
               />
@@ -180,7 +180,7 @@ const Footer = () => {
                   href="tel:+919109711321"
                   className="text-blue-200/80 hover:text-brand-orange transition-colors"
                 >
-                  +91 91097 11321
+                  +91 8349260769
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -210,10 +210,8 @@ const Footer = () => {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-blue-200/60 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Buildsyourmind Pvt. Ltd. All rights
+              © {new Date().getFullYear()} Harmono Pvt. Ltd. All rights
               reserved.
-              <span className="mx-2">|</span>
-              Designed and developed by Growthify Services❤️.
             </p>
             <div className="flex gap-6 text-sm text-blue-200/60">
               <Link
